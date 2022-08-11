@@ -1,6 +1,3 @@
-.header__feedback {
-    margin-right: -46%;
-}
 
 .feedback-card {
     display: flex;
@@ -63,5 +60,4 @@
     justify-content: flex-end;
     column-gap: 1.6rem;
     width: 100%;
-    margin-left: 100%
 }

@@ -57,10 +57,6 @@ html {
     font-size: 10px
 }
 
-.header__feedback {
-    margin-right: -46%;
-}
-
 .feedback-card {
     display: flex;
     align-items: center;
@@ -74,9 +70,7 @@ html {
 }
 
 @media(max-width: 1200px) {
-    .feedback-cards {
-        margin: -2rem auto 5rem auto !important;
-    }
+
 
     .feedback-card {
         box-shadow: 0 5px 10px;
@@ -86,9 +80,6 @@ html {
         margin-top: 0;
     }
 
-    .header__feedback {
-        margin-right: -5%;
-    }
 
     .header__partners {
         margin-bottom: 2rem;
@@ -122,7 +113,6 @@ html {
     justify-content: flex-end;
     column-gap: 1.6rem;
     width: 100%;
-    /*! margin-left: 100% */
 }
 
 .footer__list {
@@ -207,7 +197,6 @@ html {
     font-size: 40px;
     line-height: 50px;
     text-transform: capitalize;
-    /*! max-width: 35rem */
 }
 
 .header__title span {
@@ -935,11 +924,6 @@ html {
         max-width: 920px !important;
     }
 
-    .header__feedback {
-        margin-right: -20%;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-    }
 
     .news .container {
         max-width: 920px;
@@ -1033,7 +1017,6 @@ html {
     .feedback-cards {
         margin-top: -2rem !important;
         transform: scale(0.8) !important;
-        margin-left: 5rem !important;
     }
 
     .swiper-slide {
@@ -1078,10 +1061,6 @@ html {
 @media(max-width: 600px) {
     .container {
         max-width: 540px !important;
-    }
-
-    .feedback-cards {
-        margin-left: 10rem !important;
     }
 
     .swiper__slide-manager-info {
@@ -1206,10 +1185,6 @@ html {
         margin-left: 3rem;
     }
 
-    .feedback-cards {
-        margin-left: 15rem !important;
-    }
-
     .header__input-stylesheet {
         max-width: 23rem;
     }
@@ -1298,11 +1273,6 @@ html {
     margin-left: -3rem;
 }
 
-@media(min-width: 400px) and (max-width: 500px) {
-    .feedback-cards {
-        margin-left: 18rem !important;
-    }
-}
 
 @media(max-width: 450px) {
     .slider img {
@@ -1336,8 +1306,12 @@ html {
         flex-direction: column;
     }
 
+    .header-custom {
+        margin-top: 0 !important;
+    }
+
     .tour {
-        margin-top: 0;
+        margin-top: 0 !important;
     }
 
     .sub h1 {
@@ -1392,10 +1366,6 @@ html {
         max-width: 17rem;
     }
 
-    .feedback-cards {
-        margin-left: 20rem !important;
-    }
-
     .fet__container {
         display: flex;
         align-items: flex-start;
@@ -1407,8 +1377,8 @@ html {
         margin: auto;
     }
 
-    .header-custom {
-        margin-top: 5rem !important;
+    .header__text-area {
+        margin-top: 5rem;
     }
 
     .news {
@@ -1612,9 +1582,6 @@ html {
         margin: 0 auto 0 0;
     }
 
-    .header__feedback {
-        margin-top: 2rem;
-    }
 
     .sub h1 {
         font-size: 1.4rem;
@@ -2019,4 +1986,20 @@ button:active {
 .footer {
     overflow: hidden;
     padding: 5rem 0;
+}
+
+.header__feedback {
+    margin-right: -31rem;
+    margin-top: -3rem;
+
+}
+
+@media(max-width: 1200px) {
+    .header__feedback {
+        margin: auto auto 10rem auto;
+    }
+
+    .feedback-cards {
+        justify-content: center;
+    }
 }

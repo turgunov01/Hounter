@@ -1,6 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
+    loop: true,
     autoplay: {
         delay: 4000,
         duration: 2000,
@@ -38,12 +39,13 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 40,
             autoplay: false,
             initialSlide: 1,
-            loop: true,
+            loop: false,
             centeredSlides: true,
         },
         1320: {
             loop: false,
             centeredSlides: false,
+            slidesPerView: 3,
             autoplay: false,
         }
     },
@@ -96,6 +98,13 @@ var swiper2 = new Swiper(".mySwiper2", {
 let fetCards = document.querySelector('.fet__cards')
 let fetCard = fetCards.querySelectorAll('.fet__card')
 
-fetCard.forEach(function () {
-    fetCard.style.background = 'black !important'
-})
+for(let i = 0; i < fetCard.length; i++) {
+    fetCard[i].addEventListener('click', function() {
+        fetCard[i].classList.add('active')
+        if(fetCard[i].classList.contains('active')) {
+            this.classList.remove('active')
+        } else {
+            preventDefault();
+        }
+    })
+}

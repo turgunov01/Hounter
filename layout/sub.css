@@ -85,7 +85,6 @@
     }
 
     .header__feedback {
-        margin-right: -20%;
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
@@ -182,7 +181,6 @@
     .feedback-cards {
         margin-top: -2rem !important;
         transform: scale(0.8) !important;
-        margin-left: 5rem !important;
     }
 
     .swiper-slide {
@@ -227,10 +225,6 @@
 @media(max-width: 600px) {
     .container {
         max-width: 540px !important;
-    }
-
-    .feedback-cards {
-        margin-left: 10rem !important;
     }
 
     .swiper__slide-manager-info {
@@ -353,10 +347,6 @@
 
     .fet__area {
         margin-left: 3rem;
-    }
-
-    .feedback-cards {
-        margin-left: 15rem !important;
     }
 
     .header__input-stylesheet {
@@ -516,10 +506,6 @@
 
     .header__input-stylesheet {
         max-width: 17rem;
-    }
-
-    .feedback-cards {
-        margin-left: 20rem !important;
     }
 
     .fet__container {

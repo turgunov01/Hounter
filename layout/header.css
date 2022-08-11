@@ -5,7 +5,7 @@
     font-size: 40px;
     line-height: 50px;
     text-transform: capitalize;
-    max-width: 35rem
+    max-width: 40rem
 }
 
 .header__title span {
@@ -137,7 +137,7 @@
     }
 
     .header__title {
-        max-width: 45rem;
+        max-width: 40rem;
     }
 
     .header__input {
