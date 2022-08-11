@@ -1942,7 +1942,33 @@ button:active {
 .nav__item:active {
     transform: scale(1.03);
 }
+.news__article-button {
+    transition: .3s;
+}
 
+.news__article-button:hover {
+    transform: scale(1.05);
+}
+
+.news__article-button:active {
+    transform: scale(1.03);
+}
+
+img {
+    transition: .5s;
+}
+.swiper__slide-photo {
+    overflow: hidden;
+    border-radius: 2.4rem ;
+}
+.slider {
+    overflow: hidden;
+    border-radius: 2.4rem ;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
 .nav__button-sign {
     transition: .3s;
 }

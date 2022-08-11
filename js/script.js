@@ -100,10 +100,10 @@ let fetCard = fetCards.querySelectorAll('.fet__card')
 
 for (let i = 0; i < fetCard.length; i++) {
     fetCard[i].addEventListener('click', function () {
-        if (fetCard[i].classList.contains("active")) {
-            fetCard[i].classList.remove("active");
+        if(fetCard[i].classList.contains('active')) {
+            fetCard[i].classList.remove('active')
         } else {
-            fetCard[i].classList.add("active");
+            fetCard[i].classList.add('active')
         }
     })
 }
