@@ -98,13 +98,12 @@ var swiper2 = new Swiper(".mySwiper2", {
 let fetCards = document.querySelector('.fet__cards')
 let fetCard = fetCards.querySelectorAll('.fet__card')
 
-for(let i = 0; i < fetCard.length; i++) {
-    fetCard[i].addEventListener('click', function() {
-        fetCard[i].classList.add('active')
-        if(fetCard[i].classList.contains('active')) {
-            this.classList.remove('active')
+for (let i = 0; i < fetCard.length; i++) {
+    fetCard[i].addEventListener('click', function () {
+        if (fetCard[i].classList.contains("active")) {
+            fetCard[i].classList.remove("active");
         } else {
-            preventDefault();
+            fetCard[i].classList.add("active");
         }
     })
 }
