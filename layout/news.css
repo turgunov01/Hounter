@@ -1,0 +1,114 @@
+.news {
+    margin-top: 12rem;
+}
+
+.news .container {
+    position: relative;
+}
+
+.news .container::before {
+    content: '';
+    position: absolute;
+    left: -50rem;
+    background: url('../img/blur-colors/blur-3.svg') no-repeat center center / cover;
+    width: 100rem;
+    height: 60rem;
+    filter: blur(30px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.news__title {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F59E0B;
+    position: relative;
+}
+
+.news__title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3rem;
+    height: 1px;
+    background: #F59E0B;
+    top: -.7rem;
+}
+
+.author__name {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #3C4563;
+}
+
+.short__about {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    color: #1B1C57;
+    max-width: 34rem;
+    width: 100%;
+}
+
+.published__at-written {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #888B97;
+}
+
+.swiper-pagination2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.mySwiper2 .swiper-pagination-bullet-active {
+    background: #1B1C57 !important;
+}
+
+.article__big-title {
+    letter-spacing: .1rem;
+}
+
+.news__article-title {
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B1C57;
+    max-width: 40rem;
+    width: 100%;
+    margin: 3rem auto 5rem auto;
+}
+
+
+.news__article-button {
+    background: #10B981;
+    border-radius: 3.2rem;
+    padding: 1.2rem 1.6rem;
+    color: #ffffff !important;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    margin: -3rem auto 4rem auto;
+}
+
+.news__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

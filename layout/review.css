@@ -1,0 +1,67 @@
+.review {
+    margin-top: 12rem;
+}
+
+.review__feed {
+    max-width: 61rem;
+    width: 100%;
+    padding: 3.2rem;
+    text-align: start;
+    bottom: -10.55rem;
+    position: absolute;
+    z-index: 2;
+    background: #ffffff;
+    box-shadow: 0px .9rem 3.2rem rgba(89, 92, 219, 0.05);
+    border-radius: 1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.review__feed-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: #1B1C57;
+    text-transform: capitalize;
+}
+
+.review__feed-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(98, 102, 135, 0.750);
+    width: 100%;
+    max-width: 58rem;
+}
+
+.mySwiper2 .swiper-slide {
+    position: relative;
+}
+
+.review__amount {
+    color: #3C4563;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+    margin-left: 1.6rem;
+}
+
+@media(max-width: 1200px) {
+    .left-0 {
+        left: 5%;
+    }
+
+    .left-1 {
+        left: 48%;
+    }
+
+    .left-2 {
+        left: 63%;
+    }
+
+    .fet {
+        margin-top: 0 !important;
+    }
+}
+
+

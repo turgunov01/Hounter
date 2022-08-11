@@ -1,0 +1,156 @@
+
+.header__title {
+    color: #1B1C57;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    max-width: 35rem
+}
+
+.header__title span {
+    color: white;
+    -webkit-text-stroke: 1px #1B1C57;
+}
+
+.header__about {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626687;
+    max-width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 3.2rem
+}
+
+
+
+.header__chevron {
+    transform: rotate(-90deg)
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50rem;
+    width: 100%;
+    border: 1px solid #E0E3EB;
+    padding: 2px 2px 2px 2.4rem;
+    border-radius: 3.2rem;
+    margin-bottom: 3.2rem;
+    background: #ffffff !important;
+
+}
+
+.header__input-stylesheet {
+    padding: 1rem 1.5rem;
+    max-width: 30rem;
+    width: 100%;
+    border: none !important;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-left: -4rem;
+}
+
+.header__input-stylesheet:focus {
+    outline: none;
+    border: none
+}
+
+.header__input-stylesheet:focus .header__location-icon {
+    transform: scale(1.1)
+}
+
+.header__input-stylesheet:active {
+    outline: none;
+    border: none
+}
+
+.header__input-stylesheet:active .header__location-icon {
+    transform: scale(1.1)
+}
+
+.header__input-stylesheet:hover {
+    border: none;
+    outline: none
+}
+
+.header__input-stylesheet:hover .header__location-icon {
+    transform: scale(1.1)
+}
+
+.header__input-stylesheet:focus-visible {
+    outline: none;
+    border: none
+}
+
+.header__input-stylesheet:focus-visible .header__location-icon {
+    transform: scale(1.1)
+}
+
+.header__input-stylesheet::placeholder {
+    font-size: 1.4rem;
+    line-height: 2rem
+}
+
+.header__partners-title {
+    color: #888B97;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px
+}
+
+.header__button-search {
+    background: #10B981;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 1.2rem 1.8rem;
+    border-radius: 3.2rem;
+    border: none;
+    outline: none;
+    transition: all .3s
+}
+
+.header__text-area {
+    margin-top: 9.6rem;
+}
+
+.header__button-search:hover {
+    color: #fff;
+    background: #047857
+}
+
+
+@media(max-width: 1200px) {
+    .header-custom {
+        text-align: center;
+    }
+
+    .header__text-area {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header__title {
+        max-width: 45rem;
+    }
+
+    .header__input {
+        margin: 0 auto 2rem auto;
+    }
+
+    .nav__button-sign {
+        text-align: center;
+        width: 15rem;
+    }
+
+    .header__partners-title {
+        color: white;
+    }
+}

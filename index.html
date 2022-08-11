@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html style="overflow-x: hidden;" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hounter | Find the place to live your dreams easily here</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode
+                .insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(89833926, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true,
+            ecommerce: "dataLayer"
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89833926" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+</head>
+
+<body style="overflow-x: hidden;">
+
+
+    <div class="container nav__container">
+        <nav class="nav ">
+            <div class="nav__logo">
+                <img src="./img/logo.svg" class="nav__logo-image" alt="">
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#!" class="nav__link">About Us</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#!" class="nav__link">Article</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#!" class="nav__link">Property <span><img src="./img/chevron.svg" class="nav__chevron"
+                                alt=""></span></a>
+                </li>
+                <div class="nav__button">
+                    <a href="#!" class="nav__button-sign">Sign Up!</a>
+                    <div class="nav__burger d-none"></div>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 header-custom">
+                    <div class="header__text-area">
+                        <h1 class="header__title">
+                            find the place to
+                            live <span>your dreams</span>
+                            easily here
+                        </h1>
+                        <p class="header__about">
+                            Everything you need about finding your place to live will be here, where it will be easier
+                            for you
+                        </p>
+                    </div>
+                    <div class="header__input">
+                        <img src="./img/location.svg" class="header__location-icon" alt="">
+                        <input type="text" class="header__input-stylesheet"
+                            placeholder="Search for the location you want!">
+                        <button class="header__button-search"><span class="none-custom">Search</span> <span><img
+                                    src="./img/chevron.svg" class="header__chevron" alt=""></span></button>
+                    </div>
+                    <div class="header__partners">
+                        <p class="header__partners-title">Our Partnership </p>
+                        <div class="row d-flex align-items-center">
+                            <div class="col-xl-2"><img src="./img/brands/traveloka_logo 2.svg" alt=""></div>
+                            <div class="col-xl-2"><img src="./img/brands/traveloka_logo 7.svg" alt=""></div>
+                            <div class="col-xl-2"><img src="./img/brands/traveloka_logo 8.svg" alt=""></div>
+                            <div class="col-xl-2"><img src="./img/brands/traveloka_logo 9.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="header__feedback">
+                        <div class="feedback-cards">
+                            <div class="feedback-card">
+                                <img src="./img/people-pack/4.svg" class="feedback-card-img" alt="">
+                                <div class="feedback-card-text">
+                                    <h2 class="feedback-card-title">4K+</h2>
+                                    <p class="feedback-card-txt">People Looking for New Homes</p>
+                                </div>
+                            </div>
+                            <div class="feedback-card">
+                                <img src="./img/people-pack/people.svg" class="feedback-card-img" alt="">
+                                <div class="feedback-card-text">
+                                    <h2 class="feedback-card-title">1K+</h2>
+                                    <p class="feedback-card-txt">Successfully Getting Home</p>
+                                </div>
+                            </div>
+                            <div class="feedback-card">
+                                <img src="./img/people-pack/2.svg" class="feedback-card-img" alt="">
+                                <div class="feedback-card-text">
+                                    <h2 class="feedback-card-title">4K+</h2>
+                                    <p class="feedback-card-txt">People Looking for New Homes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="fet">
+            <div class="container fet__container">
+                <div class="fet__area">
+                    <h6 class="fet__type">Our recommendation</h6>
+                    <h2 class="fet__title">Featured House</h2>
+                </div>
+                <div class="fet__cards">
+                    <div class="fet__card active">
+                        <img src="./img/classification/house.svg" class="fet__card-icon" alt="">
+                        <p class="fet__card-txt active">House</p>
+                    </div>
+                    <div class="fet__card">
+                        <img src="./img/classification/villa.svg" class="fet__card-icon" alt="">
+                        <p class="fet__card-txt">Villa</p>
+                    </div>
+                    <div class="fet__card">
+                        <img src="./img/classification/apartment.svg" class="fet__card-icon" alt="">
+                        <p class="fet__card-txt">Apartment</p>
+                    </div>
+                    <div class="fet__buttons">
+                        <div class="swiper-button-prev fet__button"></div>
+                        <div class="swiper-button-next fet__active fet__button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper__container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type">
+                                    <img src="./img/filter/ant-design_fire-filled.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text">Popular</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Roselands House</h2>
+                                <p class="swiper__slide-price">$ 35.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type1">
+                                    <img src="./img/filter/ph_house-fill.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text1">New House</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Woodlanside</h2>
+                                <p class="swiper__slide-price">$ 20.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type2">
+                                    <img src="./img/filter/entypo_wallet.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text2">Best Deals</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Roselands House</h2>
+                                <p class="swiper__slide-price">$ 35.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type">
+                                    <img src="./img/filter/ant-design_fire-filled.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text">Popular</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Roselands House</h2>
+                                <p class="swiper__slide-price">$ 35.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type">
+                                    <img src="./img/filter/ant-design_fire-filled.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text">Popular</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Roselands House</h2>
+                                <p class="swiper__slide-price">$ 35.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type">
+                                    <img src="./img/filter/ant-design_fire-filled.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text">Popular</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Roselands House</h2>
+                                <p class="swiper__slide-price">$ 35.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper__slide">
+                            <div class="swiper__slide-photo">
+                                <img src="./img/house.svg" alt="">
+                                <div class="swiper__type">
+                                    <img src="./img/filter/ant-design_fire-filled.svg" class="swiper__badge" alt="">
+                                    <span class="swiper__type-text">Popular</span>
+                                </div>
+                            </div>
+                            <div class="swiper__slide-info">
+                                <h2 class="swiper__slide-name">Roselands House</h2>
+                                <p class="swiper__slide-price">$ 35.000.000</p>
+                            </div>
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tour">
+            <div class="container">
+                <div class="row justify-content-between flex-xl-row-reverse">
+                    <div class="col-xl-6 tour__right">
+                        <img src="./img/tour/tour.svg" class="tour__right-parent" alt="">
+                        <img src="./img/tour/kreslo.svg" class="tour__right-child left-0 position-absolute" alt="">
+                        <img src="./img/tour/flower1.svg" class="tour__right-child left-1 position-absolute" alt="">
+                        <img src="./img/tour/flower2.svg" class="tour__right-child left-2 position-absolute" alt="">
+                    </div>
+                    <div class="col-xl-6 tour__left">
+                        <h6 class="fet__type">Ready to Sell!</h6>
+                        <h2 class="fet__title tour__title">Lets tour and see our house!</h2>
+                        <p class="tour__about">Houses recommended by our partners that have been curated to become the
+                            home of your dreams!</p>
+                        <div class="tour__options">
+                            <h4 class="tour__info">House Detail</h4>
+                            <div class="row">
+                                <div class="col-xl-6 gap-2">
+                                    <div class="tour__option d-flex">
+                                        <div class="tour-icon width-custom-1">
+                                            <img src="./img/icons/bed.svg" class="tour-icon-img" alt="">
+                                        </div>
+                                        <div class="tour__icon-descr">
+                                            <p class="tour__icon-about text-muted">4 Bedrooms</p>
+                                        </div>
+                                    </div>
+                                    <div class="tour__option d-flex">
+                                        <div class="tour-icon width-custom-1">
+                                            <img src="./img/icons/Group.svg" class="tour-icon-img" alt="">
+                                        </div>
+                                        <div class="tour__icon-descr">
+                                            <p class="tour__icon-about">1 Carport</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="tour__option d-flex">
+                                        <div class="tour-icon width-custom-1">
+                                            <img src="./img/icons/Group 12.svg" class="tour-icon-img" alt="">
+                                        </div>
+                                        <div class="tour__icon-descr">
+                                            <p class="tour__icon-about">2 Bathrooms</p>
+                                        </div>
+                                    </div>
+                                    <div class="tour__option d-flex">
+                                        <div class="tour-icon width-custom-1">
+                                            <img src="./img/icons/Group-1.svg" class="tour-icon-img" alt="">
+                                        </div>
+                                        <div class="tour__icon-descr">
+                                            <p class="tour__icon-about">1 Carport</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour__contact d-flex align-items-center justify-content-between">
+                            <div class="swiper__slide-manager">
+                                <div class="swiper__slide-manager-image">
+                                    <img src="./img/people-pack/3.svg" class="person" alt="">
+                                </div>
+                                <div class="swiper__slide-manager-info">
+                                    <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                    <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                </div>
+                            </div>
+                            <div class="tour__contact-button">
+                                <button class="tour__contact-btn">
+                                    <span><img src="./img/icons/call.svg" class="tour__contact-icon" alt=""></span>
+                                    <span class="none-custom">Contact Now!</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review">
+            <div class="review__container">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper second__wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./img/slider.svg" alt="">
+                                <div class="review__feed">
+                                    <h3 class="review__feed-title">Best! I got the house I wanted through Hounter</h3>
+                                    <p class="review__feed-txt">Through this website I can get a house with the type and
+                                        specifications I want very easily, without a complicated process to be able to
+                                        find information on the house we want.</p>
+                                    <div class="swiper__slide-manager justify-content-between">
+                                        <div class="swiper__slide-manager-extra mt-3 d-flex align-items-center ">
+                                            <div class="swiper__slide-manager-image">
+                                                <img src="./img/people-pack/3.svg" class="person" alt="">
+                                            </div>
+                                            <div class="swiper__slide-manager-info">
+                                                <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                                <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper__slide-star d-flex align-items-center justify-content-end">
+                                            <img src="./img/star.svg" class="review__star" alt="">
+                                            <p class="review__amount pt-3">4.6</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./img/slider.svg" alt="">
+                                <div class="review__feed">
+                                    <h3 class="review__feed-title">Best! I got the house I wanted through Hounter</h3>
+                                    <p class="review__feed-txt">Through this website I can get a house with the type and
+                                        specifications I want very easily, without a complicated process to be able to
+                                        find information on the house we want.</p>
+                                    <div class="swiper__slide-manager justify-content-between">
+                                        <div class="swiper__slide-manager-extra mt-3 d-flex align-items-center ">
+                                            <div class="swiper__slide-manager-image">
+                                                <img src="./img/people-pack/3.svg" class="person" alt="">
+                                            </div>
+                                            <div class="swiper__slide-manager-info">
+                                                <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                                <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper__slide-star d-flex align-items-center justify-content-end">
+                                            <img src="./img/star.svg" class="review__star" alt="">
+                                            <p class="review__amount pt-3">4.6</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./img/slider.svg" alt="">
+                                <div class="review__feed">
+                                    <h3 class="review__feed-title">Best! I got the house I wanted through Hounter</h3>
+                                    <p class="review__feed-txt">Through this website I can get a house with the type and
+                                        specifications I want very easily, without a complicated process to be able to
+                                        find information on the house we want.</p>
+                                    <div class="swiper__slide-manager justify-content-between">
+                                        <div class="swiper__slide-manager-extra mt-3 d-flex align-items-center ">
+                                            <div class="swiper__slide-manager-image">
+                                                <img src="./img/people-pack/3.svg" class="person" alt="">
+                                            </div>
+                                            <div class="swiper__slide-manager-info">
+                                                <h2 class="swiper__slide-manager-name">Dianne Russell</h2>
+                                                <p class="swiper__slide-manager-location">Manchester, Kentucky</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper__slide-star d-flex align-items-center justify-content-end">
+                                            <img src="./img/star.svg" class="review__star" alt="">
+                                            <p class="review__amount pt-3">4.6</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <div class="news__text">
+                    <h6 class="news__title">See tips and trick from our partnership</h6>
+                    <h1 class="news__article-title">Find out more about
+                        selling and buying homes</h1>
+                    <a href="#!" class="news__article-button">More Articles</a>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 justify-content-lg-center d-lg-flex d-flex flex-column gap-5">
+                        <div class="row media-control">
+                            <div class="col-xl-4">
+                                <img src="./img/news.svg" class="news-little" alt="">
+                            </div>
+                            <div class="col-xl-8 pl-3">
+                                <div class="article__author d-flex align-items-center gap-2">
+                                    <img src="./img/people-pack/3.svg" width="32px" class="author__image" alt="">
+                                    <p class="author__name pt-3 mx-3">Dianne Russell</p>
+                                </div>
+                                <div class="article__about">
+                                    <p class="short__about text-capitalize">The things we need to check when we want to
+                                        buy a house</p>
+                                </div>
+                                <div class="acticle__time d-flex align-items-center gap-3">
+                                    <img src="./img/time.svg" class="published__at" alt="">
+                                    <p class="published__at-written pt-3 text-muted">4 min read | 25 Apr 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row media-control">
+                            <div class="col-xl-4">
+                                <img src="./img/news.svg" class="news-little" alt="">
+                            </div>
+                            <div class="col-xl-8 pl-3">
+                                <div class="article__author d-flex align-items-center gap-2">
+                                    <img src="./img/people-pack/3.svg" width="32px" class="author__image" alt="">
+                                    <p class="author__name pt-3 mx-3">Dianne Russell</p>
+                                </div>
+                                <div class="article__about">
+                                    <p class="short__about text-capitalize">The things we need to check when we want to
+                                        buy a house</p>
+                                </div>
+                                <div class="acticle__time d-flex align-items-center gap-3">
+                                    <img src="./img/time.svg" class="published__at" alt="">
+                                    <p class="published__at-written pt-3 text-muted">4 min read | 25 Apr 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row media-control">
+                            <div class="col-xl-4">
+                                <img src="./img/news.svg" class="news-little" alt="">
+                            </div>
+                            <div class="col-xl-8 pl-3">
+                                <div class="article__author d-flex align-items-center gap-2">
+                                    <img src="./img/people-pack/3.svg" width="32px" class="author__image" alt="">
+                                    <p class="author__name pt-3 mx-3">Dianne Russell</p>
+                                </div>
+                                <div class="article__about">
+                                    <p class="short__about text-capitalize">The things we need to check when we want to
+                                        buy a house</p>
+                                </div>
+                                <div class="acticle__time d-flex align-items-center gap-3">
+                                    <img src="./img/time.svg" class="published__at" alt="">
+                                    <p class="published__at-written pt-3 text-muted">4 min read | 25 Apr 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 change_width">
+                        <img src="./img/acticle.svg" class="news__article-big" width="100%" alt="">
+                        <div class="article__author mt-3 mb-2 d-flex align-items-center gap-2">
+                            <img src="./img/people-pack/3.svg" width="32px" class="author__image" alt="">
+                            <p class="author__name pt-3 mx-3 text-muted">Dianne Russell</p>
+                        </div>
+                        <h1 class="mb-2 article__title text-capitalize article__big-title">12 Things to know before
+                            buying a
+                            house</h1>
+                        <p class="review__feed-txt">Want to buy a house but are unsure about what we should know, here I
+                            will try to explain what we should know and check when we want to buy a house</p>
+                        <div class="acticle__time mt-4 d-flex align-items-center gap-3">
+                            <img src="./img/time.svg" class="published__at" alt="">
+                            <p class="published__at-written pt-3 text-muted">4 min read | 25 Apr 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sub">
+            <div class="container">
+                <div class="sub__title">
+                    <h1 class="text-capitalize">Subscribe For More Info
+                        and update from Hounter</h1>
+                </div>
+                <div class="sub__input">
+                    <form class="input__form">
+                        <img src="./img/mail.svg" class="input__icon" alt="">
+                        <input type="text" placeholder="Your Email Here" class="sub__input-write">
+                        <button class="sub__button-send text-white">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__row">
+                <div class="col-xl-6 footer__col">
+                    <img src="./img/logo.svg" class="footer__logo" alt="">
+                    <p class="footer__about">We provide information about properties such as houses, villas and
+                        apartments to help people find their dream home</p>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#!" class="footer__soc-link">
+                                <img src="./img/social-media/face.svg" class="footer-soc" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#!" class="footer__soc-link">
+                                <img src="./img/social-media/twit.svg" class="footer-soc" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#!" class="footer__soc-link">
+                                <img src="./img/social-media/insta.svg" class="footer-soc" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row footer__flex">
+                        <div class="col-xl-4">
+                            <h2 class="footer__link-title">Property</h2>
+                            <ul class="footer__links">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">House</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Apartment</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Villa</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <h2 class="footer__link-title">Article</h2>
+                            <ul class="footer__links">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">New Article</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Popular Article</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Most Read</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Tips & Tricks</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <h2 class="footer__link-title">Contact</h2>
+                            <ul class="footer__links">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">2464 Royal Ln. Mesa, New Jersey 45463</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">(671) 555-0110</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">info@hounter.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
