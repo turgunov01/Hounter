@@ -122,7 +122,7 @@ html {
     justify-content: flex-end;
     column-gap: 1.6rem;
     width: 100%;
-    margin-left: 100%
+    /*! margin-left: 100% */
 }
 
 .footer__list {
@@ -149,7 +149,7 @@ html {
     font-weight: 300;
     font-size: 1.4rem;
     line-height: 2.4rem;
-    opacity: 0.32;
+    opacity: 0.75;
     color: #626687;
     max-width: 31rem;
     width: 100%;
@@ -203,16 +203,17 @@ html {
 
 .header__title {
     color: #1B1C57;
-    font-weight: 600;
+    font-weight: 1000;
     font-size: 40px;
     line-height: 50px;
     text-transform: capitalize;
-    max-width: 35rem
+    /*! max-width: 35rem */
 }
 
 .header__title span {
     color: white;
-    -webkit-text-stroke: 1px #1B1C57;
+    text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+    letter-spacing: 2px;
 }
 
 .header__about {
@@ -697,6 +698,12 @@ html {
     padding-top: 20px;
 }
 
+
+.swiper-button-disabled {
+    opacity: 1 !important;
+    background: gray !important;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
     position: static !important;
@@ -708,6 +715,16 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.swiper-button-prev.swiper-button-disabled {
+    background-color: #E0E3EB !important;
+    color: #3C4563 !important;
+}
+
+.swiper-button-next.swiper-button-disabled {
+    background-color: #E0E3EB !important;
+    color: #3C4563 !important;
 }
 
 
@@ -1309,7 +1326,8 @@ html {
     .tour__contact-btn {
         width: 5.5rem !important;
     }
-/* 
+
+    /* 
     .mySwiper .swiper-wrapper {
         margin-left: -1rem;
     } */
@@ -1930,4 +1948,75 @@ html {
     .mySwiper2 .swiper-wrapper {
         margin-left: 8rem;
     }
+}
+
+
+
+button {
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1.03);
+}
+
+.nav__item {
+    transition: .3s;
+}
+
+.nav__item:hover {
+    transform: scale(1.05);
+}
+
+.nav__item:active {
+    transform: scale(1.03);
+}
+
+.nav__button-sign {
+    transition: .3s;
+}
+
+.nav__button {
+    transition: .3s;
+}
+
+.nav__button:hover {
+    transform: translateY(-.5rem);
+}
+
+.nav__button:hover .nav__button-sign {
+    box-shadow: 0 4px 4px #000;
+}
+
+.nav__button:active {
+    transform: translateY(-.2rem);
+}
+
+.nav__button:active .nav__button-sign {
+    box-shadow: 0 2px 2px #000;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    right: 4rem;
+    bottom: -20rem;
+    background: url('../img/blur-colors/blur-4.svg') no-repeat center center / cover;
+    width: 60rem;
+    height: 60rem;
+    filter: blur(120px);
+    z-index: -1;
+}
+
+.footer {
+    overflow: hidden;
+    padding: 5rem 0;
 }

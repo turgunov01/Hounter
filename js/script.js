@@ -90,3 +90,12 @@ var swiper2 = new Swiper(".mySwiper2", {
     }
 
 });
+
+
+
+let fetCards = document.querySelector('.fet__cards')
+let fetCard = fetCards.querySelectorAll('.fet__card')
+
+fetCard.forEach(function () {
+    fetCard.style.background = 'black !important'
+})
