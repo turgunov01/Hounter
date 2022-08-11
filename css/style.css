@@ -1281,6 +1281,12 @@ html {
     margin-left: -3rem;
 }
 
+@media(min-width: 400px) and (max-width: 500px) {
+    .feedback-cards {
+        margin-left: 18rem !important;
+    }
+}
+
 @media(max-width: 450px) {
     .slider img {
         width: 100%;
@@ -1298,6 +1304,22 @@ html {
 @media(max-width: 400px) {
     .header__title {
         font-size: 3rem;
+    }
+
+    .tour__contact-btn {
+        width: 5.5rem !important;
+    }
+
+    .mySwiper .swiper-wrapper {
+        margin-left: -1rem;
+    }
+
+    .media-control {
+        flex-direction: column;
+    }
+
+    .tour {
+        margin-top: 0;
     }
 
     .sub h1 {
