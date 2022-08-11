@@ -62,6 +62,7 @@ var swiper2 = new Swiper(".mySwiper2", {
     centeredSlides: true,
     slidesPerView: 'auto',
     initialSlide: 0,
+    loop: true,
 
     autoplay: {
         delay: 5000,
