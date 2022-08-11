@@ -1309,10 +1309,10 @@ html {
     .tour__contact-btn {
         width: 5.5rem !important;
     }
-
+/* 
     .mySwiper .swiper-wrapper {
         margin-left: -1rem;
-    }
+    } */
 
     .media-control {
         flex-direction: column;
