@@ -6,6 +6,10 @@ var swiper = new Swiper(".mySwiper", {
         duration: 2000,
         transition: 1000,
     },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
     breakpoints: {
         0: {
             slidesPerView: 'auto',
