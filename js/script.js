@@ -14,7 +14,7 @@ var swiper = new Swiper(".mySwiper", {
             loop: true,
         },
         300: {
-            spaceBetween: 5,
+            spaceBetween: 20,
             slidesPerView: 'auto',
             centeredSlides: true,
             loop: true,
